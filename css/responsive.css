@@ -1,10 +1,14 @@
 @media (max-width: 991px) {
   html {
-    font-size: 50%;
+    font-size: 55%;
   }
 
   header {
     padding: 1rem 2rem;
+  }
+
+  section {
+    padding: 2rem;
   }
 }
 
@@ -25,7 +29,7 @@
     display: none;
   }
 
-  .show {
+  .navbar.active {
     display: block;
   }
 
@@ -35,5 +39,28 @@
     margin: 1rem;
     font-size: 2rem;
     background: #eee;
+  }
+
+  #search-box {
+    width: 90%;
+    margin: 0 1rem;
+  }
+
+  .content h3 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .dishes .box-container .box img {
+    height: auto;
+    width: 100%;
+  }
+  .order form .inputBox .input {
+    width: 100%;
   }
 }
