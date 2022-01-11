@@ -299,6 +299,10 @@ header {
   margin-right: 1rem;
 }
 
+.dishes-pagination {
+  margin-top: 30rem;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;

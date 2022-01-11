@@ -51,6 +51,21 @@ var swiper = new Swiper(".home-slider", {
   },
   loop: true,
 });
+
+var swiper = new Swiper(".dishes-swiper", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  loop: true,
+});
+
 var Swiper = new Swiper(".review-slider", {
   spaceBetween: 20,
   centeredSlides: true,
