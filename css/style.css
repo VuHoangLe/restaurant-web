@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;900&display=swap");
 
 :root {
   --green: #27ae60;
@@ -8,7 +8,7 @@
   --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 * {
-  font-family: "Nunito", sans-serif;
+  font-family: "Lobster Two", cursive;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -60,6 +60,7 @@ header {
 }
 .navbar a {
   font-size: 1.7rem;
+  font-weight: bold;
   border-radius: 0.5rem;
   padding: 0.5rem 1.5rem;
   color: var(--light-color);
@@ -367,7 +368,7 @@ header {
 .row .content .icons-container .icons span {
   font-size: 1.5rem;
   color: var(--black);
-  font-weight: 600;
+  font-weight: bolder;
 }
 
 .menu .box-container {
