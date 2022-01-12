@@ -1,22 +1,23 @@
-@media (max-width: 991px) {
+@media only screen and (max-width: 739px) {
   html {
-    font-size: 55%;
+    font-size: 40%;
   }
 
   header {
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
   }
 
   section {
-    padding: 2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  #menu-bars {
-    display: inline-block;
+    padding: 1rem;
   }
 
+  .dishes .box-container .box img {
+    height: auto;
+    width: 100%;
+  }
+  .order form .inputBox .input {
+    width: 100%;
+  }
   .navbar {
     position: absolute;
     top: 100%;
@@ -40,6 +41,9 @@
     font-size: 2rem;
     background: #eee;
   }
+  #menu-bars {
+    display: inline-block;
+  }
 
   #search-box {
     width: 90%;
@@ -50,17 +54,16 @@
     font-size: 5rem;
   }
 }
-
-@media (max-width: 450px) {
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
   html {
     font-size: 50%;
   }
 
-  .dishes .box-container .box img {
-    height: auto;
-    width: 100%;
+  header {
+    padding: 1rem 2rem;
   }
-  .order form .inputBox .input {
-    width: 100%;
+
+  section {
+    padding: 2rem;
   }
 }

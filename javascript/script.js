@@ -42,7 +42,7 @@ var swiper = new Swiper(".home-slider", {
   spaceBetween: 30,
   centeredSlides: true,
   autoplay: {
-    delay: 2500,
+    delay: 8500,
     disableOnInteraction: false,
   },
   pagination: {
@@ -56,7 +56,7 @@ var swiper = new Swiper(".dishes-swiper", {
   spaceBetween: 30,
   centeredSlides: true,
   autoplay: {
-    delay: 2500,
+    delay: 8500,
     disableOnInteraction: false,
   },
   pagination: {
@@ -70,7 +70,7 @@ var Swiper = new Swiper(".review-slider", {
   spaceBetween: 20,
   centeredSlides: true,
   autoplay: {
-    delay: 2500,
+    delay: 8500,
     disableOnInteraction: false,
   },
   loop: true,
