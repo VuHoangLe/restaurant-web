@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800&display=swap");
 :root {
   --green: #27ae60;
   --black: #192a56;
@@ -8,7 +7,7 @@
   --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 * {
-  font-family: "Lobster Two", cursive;
+  font-family: "Sansita Swashed", cursive;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
